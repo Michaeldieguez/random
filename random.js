@@ -16,7 +16,7 @@ function createFirstScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
    makeCircle(100,50,30,"grey",0.90)
-   makeImage(""87,39,25,25,1)
+   makeImage("https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/732px-Real_Madrid_CF.svg.png",87,39,25,25,1)
    makeRect(75,26,50,50,"indigo",0.50)
 }
 
@@ -25,7 +25,9 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-
+    makeCircle(100,50,30,"red",0.90)
+    makeImage("https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Atletico_Madrid_logo.svg/600px-Atletico_Madrid_logo.svg.png",87,39,25,25,1)
+    makeRect(75,26,50,50,"white",0.50)
 }
 
 
@@ -48,12 +50,12 @@ function createRandomScene() {
    }
     
         // Else, call the function to create your third scene.
-    
-    
+ else{
+    createThirdScene()
     
 }
 
-
+}
 
 // DO NOT EDIT ANYTHING BELOW THIS LINE!
 // These are the functions you should call to
