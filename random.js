@@ -40,19 +40,23 @@ function createRandomScene() {
     var rando1 = Math.random()
     // If the number is less than 0.33, call the function to create your first scene.
     if (rando1<0.33){
+        makeText("F.C.Barcelona",50,20)
         createFirstScene()
+        makeImage("http://files.laliga.es/seccion_logos/laliga-v-600x600.png",150,35,50,50,1)
     } 
             
     // Else, if the number is less than 0.67, call the function to create your second scene.
    else if (rando1<0.67){
+       makeText("RealMadrid",65,95)
         createSecondScene()
-   
+        makeImage("http://files.laliga.es/seccion_logos/laliga-v-600x600.png",150,35,50,50,1)
    }
     
         // Else, call the function to create your third scene.
  else{
+     makeText("Athletico Madrid",10,60)
     createThirdScene()
-    
+    makeImage("http://files.laliga.es/seccion_logos/laliga-v-600x600.png",150,35,50,50,1)
 }
 
 }
